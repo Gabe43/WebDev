@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <center>
+            <h1>Employee Interests Survey form</h1>
+        </center>
+    </div>
+    <Form action="form.php">
+        <div>
+            <center>
+                Enter Your Name <input type="text" name="name" id="name">
+            </center>
+        </div><br>
+        <div>
+            <center>
+                Enter Your Department <input type="text" name="department" id="department">
+            </center>
+        </div><br>
+        <div>
+            <center>
+                Tell us a little about yourself: <textarea name="about" id="" cols="30" rows="10"></textarea>
+            </center>
+        </div><br>
+        <center>
+            <label for="optionidyes">
+                Do you exercise at home? <input type="radio" value="Option Yes" name="option" id="optionidyes"> Yes
+            </label>
+            <label for="optionidno">
+                <input type="radio" value="Option No" name="option" id="optionidno"> No 
+            </label>
+        </center><br>
+        <div>
+            <center>
+                <label for="books">
+                    How do you like to read about your favourite topics?<br><br>
+                     Books  <input type="checkbox" name="books" id="books">
+                </label>
+                <label for="onlineres">
+                   Online Resources <input type="checkbox" name="onlineres" id="onlineres">
+                </label>
+                <label for="phoneapps">
+                   Phone apps <input type="checkbox" name="phoneapps" id="phoneapps">
+                </label>
+                <label for="magazines">
+                   Magazines <input type="checkbox" name="magazines" id="magazines">
+                </label>
+            </center>
+        </div><br>
+        <div>
+            <center>
+                What genre of movies do you like?
+                <select name="type" id="type">
+                    <option value="comedy">comedy</option>
+                    <option value="action">action</option>
+                    <option value="romance">romance</option>
+                    <option value="horror">horror</option>
+                </select><br><br>
+                <input type="submit" value="Submit Form">
+            </center>
+        </div>
+    </Form>
+</body>
+
+</html>

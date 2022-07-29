@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            color: whitesmoke;
+            /* animation-name: widthAnimate;
+            animation-delay: 1s;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-direction: none;
+            animation-timing-function: ease-in-out; */
+            animation: widthAnimate2 3s ease-in-out 0.5s 4 alternate;
+        }
+        @keyframes widthAnimate {
+            from{
+                width: 300px;
+                height: 300px;
+            }
+            to{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+        @keyframes widthAnimate2 {
+            0%{
+                width: 300px;
+                height: 300px;
+            }
+            20%{
+                width: 450px;
+                height: 400px;
+            }
+            100%{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is me
+        </div>
+    </div>
+</body>
+</html>

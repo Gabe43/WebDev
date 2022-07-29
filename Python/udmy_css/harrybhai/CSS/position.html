@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- if we want a elemnt to be in the top we have to increase the z index of the element -->
+    <!-- and set the other z index smaller than that -->
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        ul{
+            background-color: red ;
+        }
+        li{
+            /* display: inline; */
+            list-style: circle outside url('red.png');
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 34px;
+            z-index: 7;
+        }
+        p{
+            text-align: center;
+            border: 2px solid red;
+        }
+        .container{
+            background-color: aqua;
+            height: 50vh;
+            width: 56vw;
+            margin: auto;
+            padding: 0 30px;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            /*position: relative;
+               By using relative funcion we can move it to any direction*/
+              position: absolute;
+              z-index: 2;
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(82, 4, 112);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    About
+                </li>
+                <li>
+                    Contact
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus dolore reiciendis placeat, officiis debitis blanditiis provident vitae eius, optio sapiente. Facilis maxime ipsam, nobis odit dolor fuga adipisci rerum aspernatur soluta voluptate earum!</p>
+        <div class="box">
+            I am a box
+        </div>
+        <div class="box2">
+            I am box2
+        </div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Oranges</li>
+    </ul>
+</body>
+
+</html>

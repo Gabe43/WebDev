@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 456px;
+        }
+        .box1{
+            border: 2px solid black;
+            display: inline-block;
+            /* Translate first value for moving the element right that is y axis
+            and second value for moving the element down that is x axis 
+            We can also use rotate value in degree
+            transform: translate(134px, 56px) rotate(0.25turn);*/
+            /* transform-origin: 0; */
+            /* Scale value is in x axis and y axis
+            thr first value for x axis and 2nd for y axis */
+            /* transform: scale(4, 7);
+            /* We can also write the scale like this 
+            transform: scaleX(8);
+            transform:scaleY(8); */
+            /* transform: skew(4deg, 6deg); */
+            /* transform: rotateX(45deg); */
+            /* We also have rotateY rotateZ function  */
+        }
+        img{
+            width: 255px;
+            height: 456px;
+            transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition: width 4s ease-in-out, height 4s ease-in;
+        }
+        img:hover{
+            height: 16px;
+            width: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+           <img id="myImage" src="assin.jpg" alt="assassin">
+           <button id="btn">Toggle</button>
+        </div>
+    </div>
+   
+</body>
+
+</html>

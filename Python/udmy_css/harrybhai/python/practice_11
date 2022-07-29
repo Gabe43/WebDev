@@ -1,0 +1,114 @@
+'''class programmer:
+    company = "Microsoft"
+    salary = 5000
+    period = "2 Years"
+    adress = ""
+    print ("The list of people workin in" + str(company) + "are")
+    def entry_1(self):
+        print ( str(self.name))
+    def info_1(self):
+        print ("The information of " + str(self.name) + " is")
+        print ("Salary is " +str(self.salary))
+        print ("Time period of job is " +str(self.period))
+        print("Address is " +str(self.adress))
+harry = programmer() # This said object instanciation
+sheila = programmer()
+modi = programmer()
+zeeshan = programmer()
+harry.name = "Harry"
+sheila.name = "Sheila"
+modi.name = "Modi"
+zeeshan.name = "Zeeshan"
+harry.salary = 500
+sheila.salary = 1000
+modi.salary = 1500
+zeeshan.salary = 2000
+harry.period = "2.5 Years"
+sheila.period = "3 Years"
+modi.period = "3.5 Years"
+zeeshan.period = "5 Years"
+harry.entry_1()
+sheila.entry_1()
+modi.entry_1()
+zeeshan.entry_1()
+harry.info_1()
+sheila.info_1()
+modi.info_1()
+zeeshan.info_1()
+
+'''
+
+'''class calculator :
+    @staticmethod
+    def greet():
+        print("Hello User, Nice to see you here")
+    def square(self):
+        z = (self.a)**2
+        print ("The result is " + str(z))
+    def cube(self):
+        z = (self.a)**3
+        print ("The result is " + str(z))
+    def sqroot(self):
+        z = (self.a)**0.5
+        print ("The result is " + str(z))
+num = calculator()
+num.greet()
+num.a = int(input("Enter the number"))
+b = int(input("Enter 1. for square" + "\nEnter 2. for cube" + "\nEnter 3 for sqroot"))
+if (b == 1):
+    s = num.square()
+elif (b==2):
+    g = num.cube()
+elif (b== 3):
+    h = num.sqroot()
+elif (b!= 1 or b!=2 or b!=3):
+    print ("You have enter a wrong number")
+    '''
+
+class train:
+    def bookticket(self,m):
+        n = 0
+        while(n<m):
+            name = input("Enter your Name")
+            age = input("Enter your age")
+            address = input("Enter your address")
+            dateoftravel =input("Enter the date of travel")
+            if(self.seats>0):
+                print ("Your Ticket is Booked and your seat number is :- " + str(self.seats))
+                self.seats = self.seats-1
+            else :
+                print("Seats is full")
+            print (f"Your ticket is booked with information :- \n Name - {name} \n Age - {age} \n Address - {address} \n Date - {dateoftravel}")
+            n = n+1
+    def status(self):
+        print(f"Total number of seats left :-  {self.seats}")
+    @staticmethod
+    def fare():
+        print("The fare of the train is 1250")
+    
+entry = train()
+entry.seats = 10
+b = int(input("Press 1. to Book Ticket \n Press 2. to see the total number of seats \n Press 3. to see the Fare"))
+m = int(input("Enter the Number of tickets to be booked"))
+if (b==1):
+    entry.bookticket(m)
+elif(b==2):
+    entry.status()
+elif (b==3):
+    entry.fare()
+entry.status()
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+

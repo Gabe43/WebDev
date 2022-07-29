@@ -1,0 +1,5 @@
+with open("fine.txt", 'r') as a:
+    z=  a.read()
+    print (z)
+    
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    original sentence<input type="text" id="text"><br>
+    replace<input type="text" id="rep"><br>
+    new word<input type="text" id="new"><br>
+    <button>replace</button>
+    <button onclick="text()">submit</button>
+    <div id="ans"></div>
+</body>
+<script>
+    function text(){
+    var x = document.getElementById("text").value;
+    var y = document.getElementById('rep').value;
+    var z = document.getElementById('new').value;
+    document.getElementById('ans').innerHTML=x.replace(y,z);
+    document.getElementById('text').value=x.replace(y,z);
+    }
+</script>
+</html>

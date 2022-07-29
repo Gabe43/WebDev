@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.res{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: 5px;
+}
+.log{
+    display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 15px;
+    left: 565px;
+}
+header{
+    background-color: rgb(26, 26, 136);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 30px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 60px;
+    top: 4px;
+}
+.nem{
+
+    height: 3px;
+    width: 20px;
+    background-color: white;
+    position: relative;
+    right: 600px;
+    bottom: 26px;
+}
+.ben{
+
+    height: 3px;
+    width: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 31px;
+    right: 620px;
+}
+.men{
+
+    height: 3px;
+    width: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 21px;
+    right: 580px;
+}
+.conta{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px 2px wheat;
+    position: relative;
+    left: 60px;
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 4px;
+    height: 8vh;
+    width: 89vw;
+    box-shadow: 2px 2px 4px 2px wheat;
+    padding-top: 10px;
+
+}
+.prsnl{
+    font-size: 30px;
+    position: relative;
+    right: 24px;
+}
+.name{
+    display: inline;
+    position: relative;
+    bottom: 465px;
+    left: 120px;
+}
+#nameid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.email{
+    display: inline;
+    position: relative;
+    bottom: 402px;
+    right: 232px;
+}
+#emailid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.envelope{
+    display: inline;
+    position: relative;
+    right: 36px;
+    top: 5px;
+}
+.web{
+    display: inline;
+    position: relative;
+    bottom: 342px;
+    right: 610px;
+}
+#webid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.globe{
+    display: inline;
+    position: relative;
+    right: 36px;
+    top: 5px;
+}
+#linkid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.link{
+    display: inline;
+    position: relative;
+    bottom: 312px;
+    left: 120px;
+}
+.linkedin{
+    display: inline;
+    position: relative;
+    right: 36px;
+    top: 5px;
+}
+#fcbid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.fcb{
+    display: inline;
+    position: relative;
+    bottom: 246px;
+    right: 256px;
+}
+.facebook{
+    display: inline;
+    position: relative;
+    right: 38px;
+    top: 5px;
+}
+.lstname{
+    display: inline;
+    position: relative;
+    bottom: 465px;
+    left: 20px;
+}
+.lst{
+    display: inline;
+    position: relative;
+    bottom: 499px;
+    right: 32px;
+}
+#lstid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.phn{
+    display: inline;
+    position: relative;
+    bottom: 470px;
+    left: 724px;
+}
+#phnid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.git{
+    display: inline;
+    position: relative;
+    bottom: 410px;
+    left: 347px;
+}
+#gitid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.twitter{
+    display: inline;
+    position: relative;
+    bottom: 346px;
+    left: -30px;
+}
+#twitid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.insta{
+    display: inline;
+    position: relative;
+    bottom: 314px;
+    left: 725px;
+}
+#instaid{
+    width: 340px;
+    height: 30px;
+    padding-left: 5px;
+}
+.telephone{
+    display: inline;
+    position: relative;
+    top: 5px;
+    right: 36px;
+}
+.github{
+    display: inline;
+    position: relative;
+    top: 5px;
+    right: 36px;
+}
+.twitte{
+    display: inline;
+    position: relative;
+    top: 5px;
+    right: 36px;
+}
+.instagram{
+    display: inline;
+    position: relative;
+    top: 5px;
+    right: 36px;
+}
+.first{
+    display: inline;
+    position: relative;
+    bottom: 150px;
+    left: 214px;
+}
